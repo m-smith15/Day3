@@ -1,0 +1,38 @@
+.nav{
+    display:flex;
+    width:90%;
+    align-items:flex-end;
+    justify-content:space-between;
+    height:75px;
+    text-align:center;
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#333333;
+    color:white;
+}
+.nav-title, .active{
+    font-weight:bold;
+}
+.nav-links{
+    display:flex;
+    font-weight:light;
+    list-style:none;
+}
+li{
+    margin:10px;
+    
+}
+.btn{
+    background-color:hsl(190, 52.5%, 47.1%);
+    border:solid black;
+    box-shadow:2px 3px black;
+    color:white;
+    font-size:14px;
+}
+a{
+    color:white;
+}
+/*Adding background color for my eyes */
+/* body{
+    background-color:black;
+}  */
